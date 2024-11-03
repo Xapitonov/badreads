@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_sort_date"
+        android:title="дата" />
+    <item android:id="@+id/menu_sort_author"
+        android:title="автор а-я" />
+    <item android:id="@+id/menu_sort_year"
+        android:title="год от старого к новому" />
+    <item android:id="@+id/menu_sort_rating"
+        android:title="рейтинг" />
+    <item android:id="@+id/menu_sort_page_num_asc"
+        android:title="страницы от коротких к длинным" />
+    <item android:id="@+id/menu_sort_page_num_desc"
+        android:title="страницы от длинных к коротким" />
+    <item android:id="@+id/menu_sort_bookmarks"
+        android:title="закладки" />
+</menu>
