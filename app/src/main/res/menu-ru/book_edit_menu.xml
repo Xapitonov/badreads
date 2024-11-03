@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Сохранить" android:id="@+id/menu_save" android:icon="@drawable/ic_save_disk" app:showAsAction="always"/>
+    <item android:title="Заполнить недостающие поля" android:id="@+id/menu_meta" app:showAsAction="never"/>
+    <item android:title="Удалить" android:id="@+id/menu_delete" android:icon="@drawable/ic_delete_black" app:showAsAction="never"/>
+</menu>
