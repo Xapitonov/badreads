@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:title="Настройки библиотеки">
+        <EditTextPreference
+            app:title="Годовая цель"
+            app:summary="Цель по количеству книг, прочитанных в этом году"
+            android:inputType="number"
+            app:defaultValue="52"
+            app:dialogTitle="Установить годовую цель"
+            app:key="yearly_goal"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:title="Пользовательский интерфейс">
+        <ListPreference
+            app:defaultValue="@string/dark_mode_def_value"
+            app:entries="@array/dark_mode_entries"
+            app:entryValues="@array/dark_mode_values"
+            app:key="dark_mode"
+            app:title="@string/dark_mode" />
+
+        <ListPreference
+            app:dialogTitle="Начальная вкладка"
+            app:entries="@array/tab_array"
+            app:entryValues="@array/tab_values"
+            app:key="landing_tab"
+            app:title="Начальная страница"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Приложение Badreads">
+        <Preference
+            android:key="source"
+            android:title="Источник"
+            android:summary="github.com/fenimore/badreads"
+            />
+        <Preference
+            android:key="license"
+            android:title="Лицензия"
+            android:summary="GNU Public License v3"
+            />
+        <Preference
+            android:key="version"
+            app:title="Версия"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
