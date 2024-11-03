@@ -1,0 +1,66 @@
+<!-- Copyright 2017 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
+<resources>
+    <string name="app_name">Библиофил</string>
+    <string name="tab_text_1">Чтение</string>
+    <string name="tab_text_2">Прочитано</string>
+    <string name="tab_text_3">К прочтению</string>
+    <string name="title_activity_book_view">Запись книги</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="title_search_book_activity">Искать в Open Library</string>
+    <string name="title_activity_book_edit">Правка книги</string>
+
+    <string name="title_activity_settings">Настройки</string>
+    <!-- Preference Titles -->
+    <string name="dark_mode">Темный режим</string>
+    <string name="dark_mode_def_value">MODE_NIGHT_FOLLOW_SYSTEM</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="title_activity_new_book">Новая книга</string>
+    <string name="title_activity_about">О приложении</string>
+    <string name="about_adding_books">Нажмите на значок Плюс на главном экране Badreads, затем ищите по заглавию, автору или ISBN. Либо нажмите на значок Штрих-кода, чтобы открыть сканер и отсканировать штрих-код вашей книги. Результаты включают оригинальный год публикации, а также ISBN 13 изданий. Если вы выберете книгу, которая дублируется в вашей библиотеке, у вас есть возможность заменить информацию о дублирующихся книгах на ваш выбор (такие как подзаголовок, ISBN и издатель).</string>
+    <string name="about_adding_books_title">Добавление книг</string>
+    <string name="about_shelves">В Badreads есть три полки: Читаю, Прочитанные и К прочтению. При поиске или импорте книги по умолчанию добавляются на полку К прочтению.</string>
+    <string name="about_shelves_title">Полки</string>
+    <string name="about_openlibrary_btn">Посетите: Open Library</string>
+    <string name="about_open_library">Поиск и обложки книг предоставлены Open Library, целью которой является создание \"одной веб-страницы для каждой когда-либо изданной книги\".</string>
+    <string name="about_open_library_title">Open Library</string>
+    <string name="about_badreads">Это журнал книг для отслеживания, какие книги вы прочитали и хотите прочитать. Вы можете импортировать свою текущую библиотеку из CSV (используя формат goodreads).</string>
+    <string name="about_source">Badreads бесплатен и с открытым исходным кодом (GPLv3). Вы можете найти исходный код на Github.</string>
+    <string name="about_source_string">Источник</string>
+    <string name="about_book_covers">Обложки книг также предоставлены OpenLibrary.org. Badreads ищет обложки на OpenLibrary.org, используя ISBN. Каждый может создать учетную запись на OpenLibrary.org и добавлять или изменять обложки книг самостоятельно..</string>
+    <string name="about_source_title">Исходный код</string>
+    <string name="about_book_covers_title">Обложки книг</string>
+    <string name="dark_mode_prerence">dark_mode</string>
+    <string name="app_title">Закладка</string>
+    <string name="dummy_button">Бирюзовая кнопка</string>
+    <string name="dummy_content">БЕЗДЕЙСТВИЕ\nСОДЕРЖИМОЕ</string>
+    <string name="title_activity_nav_view">NavViewActivity</string>
+    <string name="navigation_drawer_open">Открыть навигационное меню</string>
+    <string name="navigation_drawer_close">Закрыть навигационное меню</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Навигационный заголовок</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_slideshow">Слайд-шоу</string>
+
+
+</resources>
